@@ -1,5 +1,6 @@
 import os
 port = int(os.environ.get("PORT", 5000))  # استخدم 5000 كمنفذ افتراضي إذا لم يكن هناك منفذ مخصص
+app.run(host="0.0.0.0", port=port)
 import time
 import requests
 import pandas as pd
