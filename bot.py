@@ -1,10 +1,10 @@
-
+import os
+port = int(os.environ.get("PORT", 5000))  # استخدم 5000 كمنفذ افتراضي إذا لم يكن هناك منفذ مخصص
 import time
 import requests
 import pandas as pd
 import ta
 from datetime import datetime
-import os
 import telegram
 
 # إعدادات التليجرام
