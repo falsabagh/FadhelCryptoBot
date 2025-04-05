@@ -8,8 +8,8 @@ import os
 import telegram
 
 # إعدادات التليجرام
-TOKEN = 'ضع_رمز_بوتك_هنا'
-CHANNEL_ID = '@اسم_قناتك'
+TOKEN = '7875287131:AAHGhBvxhBrD4_8R66b5AL0yPBXD7Vvqlv8'
+CHANNEL_ID = '@Fadhel Crypto Alerts'
 
 bot = telegram.Bot(token=TOKEN)
 
