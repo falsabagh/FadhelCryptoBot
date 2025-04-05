@@ -9,7 +9,7 @@ import telegram
 
 # إعدادات التليجرام
 TOKEN = '7875287131:AAHGhBvxhBrD4_8R66b5AL0yPBXD7Vvqlv8'
-CHANNEL_ID = '@Fadhel Crypto Alerts'
+CHANNEL_ID = '@FadhelCryptoBot'
 
 bot = telegram.Bot(token=TOKEN)
 
