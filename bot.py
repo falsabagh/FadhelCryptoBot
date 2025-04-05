@@ -1,5 +1,17 @@
+from flask import Flask
 import os
-port = int(os.environ.get("PORT", 5000))  # استخدم 5000 كمنفذ افتراضي إذا لم يكن هناك منفذ مخصص
+
+# تعريف التطبيق
+app = Flask(__name__)
+
+# تحديد المنفذ باستخدام متغير البيئة أو 5000 كمنفذ افتراضي
+port = int(os.environ.get("PORT", 5000))
+
+@app.route('/')
+def home():
+    return 'Hello, World!'
+
+# تشغيل التطبيق على المنفذ المحدد
 app.run(host="0.0.0.0", port=port)
 import time
 import requests
